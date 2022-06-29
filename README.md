@@ -4,15 +4,14 @@ LINE MAN Wongnai ชวนคุณชาว DEV Geek
 ลุ้นรับ LINE MAN Food Coupon มูลค่า 100 บาท จำนวน 20 รางวัล 
 พร้อมลุ้นรับรางวัลสุดพิเศษ on-top เพิ่ม จำนวน 10 รางวัล !!
 
-
 ## Answer the question
 
-<?php
+	`<?php
 
-$secret = 'Wae@ajr4ebh&i(rfidn!gAyfo$uD.NSso0fOt$w=a|r1edDxeEvae^l*o9phefrssq.';
+	$secret = 'Wae@ajr4ebh&i(rfidn!gAyfo$uD.NSso0fOt$w=a|r1edDxeEvae^l*o9phefrssq.';
 
-for ($i = 0; $i < strlen($secret); $i += 2) {
-    echo $secret[$i];
-}
+	for ($i = 0; $i < strlen($secret); $i += 2) {
+   	echo $secret[$i];
+	}`
 
 ## Answer
