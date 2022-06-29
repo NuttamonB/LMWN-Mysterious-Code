@@ -15,8 +15,9 @@ LINE MAN Wongnai ชวนคุณชาว DEV Geek
 	}`
 
 ## Answer?
-สเืดกวทเองดก
-งงอวกา
-อ
-วอทงกสอ
-วอทกงสอแ
+sd, _ := base64.StdEncoding.DecodeString(secret)
+result := strings.Replace(string(sd), ":", " ", 5)
+for _, v := range result {
+	whatIsIt = string(v) + whatIsIt
+}
+fmt.Println(whatIsIt)
